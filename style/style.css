@@ -22,5 +22,72 @@ White: hsl(0, 0%, 100%) */
     --dark-greyish-magenta: hsl(303, 10%, 53%);
     --light-grayish-magenta: hsl(300, 24%, 96%);
     --white: hsl(0, 0%, 100%);
+}
 
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#reviews-home {
+    width: 55%;
+    padding: 20px;
+}
+
+.reviews-text {
+    display: flex;
+    gap: 40px;
+}
+
+.reviews-text header {
+    width: 50%;
+    padding: 10px;
+
+}
+
+.reviews-text header h2 {
+    font-size: 40px;
+    color: var(--very-dark-magenta);
+    margin-bottom: 20px;
+}
+
+.reviews-text header p {
+    font-size: 15px;
+    color: var(--dark-greyish-magenta);
+}
+
+.reviews-stars {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.reviews-valoration {
+    background-color: var(--light-grayish-magenta);
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+.card-1 {
+    align-self: flex-start;
+}
+
+.card-3 {
+    align-self: flex-end;
+}
+
+.reviews-valoration h3 {
+    font-size: 15px;
+    align-items: center;
 }
