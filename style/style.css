@@ -60,7 +60,7 @@ body {
 }
 
 .reviews-stars {
-    width: 50%;
+    width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,11 +72,12 @@ body {
 .reviews-valoration {
     background-color: var(--light-grayish-magenta);
     display: flex;
-    width: 80%;
+    width: 85%;
     align-items: center;
     justify-content: center;
     gap: 10px;
     border-radius: 5px;
+    padding: 10px;
 }
 
 .card-1 {
