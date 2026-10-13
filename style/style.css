@@ -141,3 +141,31 @@ margin-bottom: 10px;
 .reviews-cards article:nth-child(3) {
     margin-top: 36px;
 }
+
+/* medidas estandar para dispositivos */
+/* breakpoints - puntos de quiebre */
+
+/* medida para pc*/
+ /* ~1400px*/ 
+
+ /* medida para tablet */
+ /* ~980px */
+
+ /* medida para celulares */
+ /* ~480px */
+
+
+ /* media query - consulta multimedia */
+ /* condicional - dada una condicion se ejecuta cierto proceso */
+ @media (max-width: 480px) {
+    section {
+        width: 100%;
+    }
+    .reviews-text {
+        flex-direction: column;
+        text-align: center;
+    }
+    .reviews-text header {
+        width: 100%;
+    }
+ }
